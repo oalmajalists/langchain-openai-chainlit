@@ -13,7 +13,7 @@ from chainlit.types import AskFileResponse
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
 embeddings = OpenAIEmbeddings()
 
-welcome_message = """Welcome to the Chainlit PDF QA demo! To get started:
+welcome_message = """Welcome to STS Chainlit PDF QA demo! To get started:
 1. Upload a PDF or text file
 2. Ask a question about the file
 """
